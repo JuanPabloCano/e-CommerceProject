@@ -10,7 +10,7 @@ function componenteCard(producto) {
                             <h6> $ ${producto.precio} USD </h6>
                         </h5>
                         <div class="d-grid gap-2 d-md-flex md-end">
-                            <button id=${producto.id} type="button" class="btn btn-dark"> Add</button>
+                            <button id=${producto.id} type="button" class="btn btn-dark btn-product"> Add</button>
                             <button id=${producto.id} type="button" class="btn btn-dark btnDelete"> Eliminar </button>
                         </div>
                     </div>
